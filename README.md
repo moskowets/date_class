@@ -10,7 +10,7 @@ With this library you can:
 - Calculate next working day;
 - Calculate week number of year;
 - Get info about:
-   is this year leap?
-   how long is this year?
-   what is the day of week on this date?
-   how long is this month?
+  * is this year leap?
+  * how long is this year?
+  * what is the day of week on this date?
+  * how long is this month?
