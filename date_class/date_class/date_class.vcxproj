@@ -155,10 +155,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="date_class.h" />
-    <ClInclude Include="date_classes.h" />
+    <ClInclude Include="date_library.h" />
     <ClInclude Include="date_class_error.h" />
     <ClInclude Include="functions.h" />
-    <ClInclude Include="Header.h" />
     <ClInclude Include="month_listing_class.h" />
     <ClInclude Include="user_functions.h" />
   </ItemGroup>

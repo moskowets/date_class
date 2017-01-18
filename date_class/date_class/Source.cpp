@@ -1,7 +1,21 @@
-#include "Header.h"
-#include "date_classes.h"
+/*
+	Read README.md first!	
+*/
 
+#include "date_library.h"
 
+using std::cout;
+using std::cin;
+
+using date_lib::Date;
+using date_lib::Date_Class_Error;
+using date_lib::is_workday;
+using date_lib::wait_until_keyword;
+
+/*
+	This is simple code, that prints out holidays in Ukraine between start and end dates.
+	The main functionality of this programm providing by the functions that declarated in 'user_functions.h' and by class 'Date'.
+*/
 void runtime()
 {
 	Date start{ 2017,1,1 };
@@ -11,24 +25,19 @@ void runtime()
 		if (!is_workday(start)) cout << start << '\t' << start.get_day_of_week() << '\n';
 		start.add_day(1);
 	}
-
 }
 
 int main()
-{
-	setlocale(LC_ALL, "Russian");
-	while (true)
+{	
+	try
 	{
-		try
-		{
-			runtime();
-			system("PAUSE");
-		}
-		catch (const Date_Class_Error& err)
-		{
-			err.what(cout);
-		}
+		runtime();
 	}
+	catch (const Date_Class_Error& err)
+	{
+		err.what(cout);
+	}
+	wait_until_keyword("exit", cout, cin);
 	return 0;
 }
 

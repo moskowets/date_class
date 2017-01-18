@@ -1,12 +1,17 @@
 #pragma once
-#include "Header.h"
+#include <string>
+#include <iostream>
 
-class Date_Class_Error
+namespace date_lib
 {
-public:
-	Date_Class_Error(const string& rs);
-	void what(ostream &out) const;
-private:
-	string reason;
-};
 
+	class Date_Class_Error
+	{
+	public:
+		Date_Class_Error(const std::string& rs);
+		void what(std::ostream &out) const;
+	private:
+		std::string reason;
+	};
+
+}
