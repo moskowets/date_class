@@ -41,19 +41,16 @@
     <ClInclude Include="date_class_error.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="date_classes.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
     <ClInclude Include="functions.h">
-      <Filter>Заголовочные файлы</Filter>
-    </ClInclude>
-    <ClInclude Include="Header.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
     <ClInclude Include="month_listing_class.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
     <ClInclude Include="user_functions.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="date_library.h">
       <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>

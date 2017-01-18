@@ -23,6 +23,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>date_class</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>date_library</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -155,10 +156,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="date_class.h" />
-    <ClInclude Include="date_classes.h" />
+    <ClInclude Include="date_library.h" />
     <ClInclude Include="date_class_error.h" />
     <ClInclude Include="functions.h" />
-    <ClInclude Include="Header.h" />
     <ClInclude Include="month_listing_class.h" />
     <ClInclude Include="user_functions.h" />
   </ItemGroup>
